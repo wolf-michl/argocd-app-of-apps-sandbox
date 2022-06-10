@@ -1,0 +1,7 @@
+spec:
+  destination:
+    namespace: argocd-example-apps
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/wolf-michl/argocd-example-apps
+    targetRevision: HEAD
