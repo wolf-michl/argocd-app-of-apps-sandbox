@@ -9,8 +9,8 @@ argocd app create app-of-apps \
     --dest-namespace argocd \
     --dest-server https://kubernetes.default.svc \
     --repo https://github.com/wolf-michl/argocd-app-of-apps-sandbox.git \
-    --path app-os-apps  
-argocd app sync apps
+    --path app-of-apps  
+argocd app sync app-of-apps
 ```
 
 ```bash
