@@ -13,4 +13,4 @@ spec:
   source:
     repoURL: https://charts.keptn.sh/
     targetRevision: 0.16.0
-    chart: keptn/keptn
+    chart: keptn
