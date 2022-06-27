@@ -33,3 +33,5 @@ The [values.yaml](values.yaml) defines some default values which can then be use
 may also be completely empty, if we don't need any default values.
 The [templates folder](templates) contains our real applications. They are defined as custom resources in form of YAML
 files.
+
+*We should prefer to use ArgoCD's applicationsets instead though, as this provides more sophisticated features. See [argocd-applicationset-sandbox](https://github.com/wolf-michl/argocd-applicationset-sandbox) for examples.*
